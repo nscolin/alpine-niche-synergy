@@ -15,13 +15,13 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-2">
-              <a href="mailto:contact@example.com" className="flex items-center text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:noah@ncolinllc.com" className="flex items-center text-gray-400 hover:text-white transition-colors">
                 <Mail className="h-5 w-5 mr-2" />
-                contact@example.com
+                noah@ncolinllc.com
               </a>
-              <a href="tel:+1234567890" className="flex items-center text-gray-400 hover:text-white transition-colors">
+              <a href="tel:+5700000000" className="flex items-center text-gray-400 hover:text-white transition-colors">
                 <Phone className="h-5 w-5 mr-2" />
-                (123) 456-7890
+                (570) 000-0000
               </a>
             </div>
           </div>
