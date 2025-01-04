@@ -8,7 +8,7 @@ export const Footer = () => {
           <div>
             <img src="/lovable-uploads/9bd02edf-0d23-4803-9126-942913ae702c.png" alt="Logo" className="h-8 w-auto mb-4 invert" />
             <p className="text-gray-400 max-w-xs">
-              Where Black Diamonds Meet Digital Excellence
+              ♦♦ Black-Diamond Digital Excellence ♦♦
             </p>
           </div>
           
