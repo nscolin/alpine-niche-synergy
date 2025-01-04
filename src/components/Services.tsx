@@ -1,4 +1,4 @@
-import { Laptop, ShoppingCart, Palette } from "lucide-react";
+import { Laptop, ShoppingCart, Palette, ArrowRight } from "lucide-react";
 
 const services = [
   {
