@@ -43,7 +43,7 @@ export const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} N Colin Consulting LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>
