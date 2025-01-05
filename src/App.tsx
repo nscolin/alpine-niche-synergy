@@ -8,6 +8,7 @@ import DigitalMarketing from "./pages/DigitalMarketing";
 import Ecommerce from "./pages/Ecommerce";
 import Branding from "./pages/Branding";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/ecommerce" element={<Ecommerce />} />
           <Route path="/branding" element={<Branding />} />
           <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

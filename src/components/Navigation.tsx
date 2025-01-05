@@ -28,6 +28,7 @@ export const Navigation = () => {
                 </div>
               </div>
             </div>
+            <Link to="/blog" className="text-secondary hover:text-primary transition-colors">Blog</Link>
             <Link to="/about" className="text-secondary hover:text-primary transition-colors">About</Link>
             <Link to="/#contact" className="text-secondary hover:text-primary transition-colors">Contact</Link>
           </div>
@@ -47,6 +48,7 @@ export const Navigation = () => {
           <Link to="/digital-marketing" className="block px-3 py-2 text-secondary hover:text-primary">Digital Marketing</Link>
           <Link to="/ecommerce" className="block px-3 py-2 text-secondary hover:text-primary">E-commerce</Link>
           <Link to="/branding" className="block px-3 py-2 text-secondary hover:text-primary">Branding</Link>
+          <Link to="/blog" className="block px-3 py-2 text-secondary hover:text-primary">Blog</Link>
           <Link to="/about" className="block px-3 py-2 text-secondary hover:text-primary">About</Link>
           <Link to="/#contact" className="block px-3 py-2 text-secondary hover:text-primary">Contact</Link>
         </div>
