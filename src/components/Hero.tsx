@@ -3,6 +3,15 @@ import { ArrowRight } from "lucide-react";
 export const Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-secondary to-secondary-dark text-white">
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1458668383970-8ddd3927deed')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}
+      ></div>
       <div className="absolute inset-0 bg-black/50 z-10"></div>
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
