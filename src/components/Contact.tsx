@@ -29,7 +29,16 @@ export const Contact = () => {
         </div>
 
         <div className="max-w-xl mx-auto">
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form 
+            onSubmit={handleSubmit} 
+            className="space-y-6"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-recaptcha="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-secondary">
                 Name
@@ -37,6 +46,7 @@ export const Contact = () => {
               <input
                 type="text"
                 id="name"
+                name="name"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
@@ -51,6 +61,7 @@ export const Contact = () => {
               <input
                 type="email"
                 id="email"
+                name="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
@@ -64,6 +75,7 @@ export const Contact = () => {
               </label>
               <textarea
                 id="message"
+                name="message"
                 rows={4}
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -71,6 +83,8 @@ export const Contact = () => {
                 required
               />
             </div>
+
+            <div data-netlify-recaptcha="true"></div>
 
             <button
               type="submit"
