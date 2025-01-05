@@ -5,19 +5,19 @@ const services = [
     title: "Digital Marketing",
     description: "Strategic social media management, content creation, and targeted advertising campaigns.",
     icon: Laptop,
-    href: "/digital-marketing",
+    href: "#digital-marketing",
   },
   {
     title: "E-commerce",
     description: "Custom online store development, optimization, and conversion rate enhancement.",
     icon: ShoppingCart,
-    href: "/ecommerce",
+    href: "#ecommerce",
   },
   {
     title: "Branding",
     description: "Brand identity development, visual design, and positioning strategy.",
     icon: Palette,
-    href: "/branding",
+    href: "#branding",
   },
 ];
 
