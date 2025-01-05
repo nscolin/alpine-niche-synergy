@@ -37,7 +37,7 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
+                src="https://unsplash.com/photos/man-skiing-on-land-Pf6e3o0GL4M"
                 alt="About Us"
                 className="rounded-lg shadow-lg w-full"
               />
