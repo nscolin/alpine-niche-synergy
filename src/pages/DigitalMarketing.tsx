@@ -24,16 +24,16 @@ const DigitalMarketing = () => {
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Social Media Management</h3>
-                <p className="text-gray-600">Engage your audience with compelling content across all major social platforms.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">AI Automation</h3>
+                <p className="text-gray-600">Close leads with AI Workflows.</p>
               </div>
               <div>
                 <h3 className="text-2xl font-semibold text-secondary mb-3">Content Creation</h3>
-                <p className="text-gray-600">Professional photography, videography, and copywriting services tailored for ski brands.</p>
+                <p className="text-gray-600">High SEO blog and copywriting services tailored for ski brands.</p>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Paid Advertising</h3>
-                <p className="text-gray-600">Targeted campaigns across Google, Facebook, and Instagram to reach your ideal customers.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Returning Customers</h3>
+                <p className="text-gray-600">Effective Email Marketing Strategy.</p>
               </div>
             </div>
           </div>
