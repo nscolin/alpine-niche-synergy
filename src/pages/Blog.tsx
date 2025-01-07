@@ -1,7 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Link } from "react-router-dom";
 
 const blogPosts = [
   {
@@ -114,12 +113,9 @@ const Blog = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">{post.description}</p>
-                <Link 
-                  to={`/blog/${post.slug}`} 
-                  className="text-blue-600 hover:text-blue-800 font-medium"
-                >
+                <span className="text-blue-600 hover:text-blue-800 font-medium cursor-pointer">
                   Read more →
-                </Link>
+                </span>
               </CardContent>
             </Card>
           ))}
