@@ -47,7 +47,6 @@ export const CustomerReviews = () => {
                   <h3 className="font-semibold text-lg text-secondary">
                     {review.name}
                   </h3>
-                  <p className="text-sm text-gray-600">{review.role}</p>
                 </div>
               </div>
               <div className="flex mb-4">

@@ -30,12 +30,12 @@ export const Contact = () => {
 
         <div className="max-w-xl mx-auto">
           <form 
-            onSubmit={handleSubmit} 
-            className="space-y-6"
             name="contact"
             method="POST"
             data-netlify="true"
-            data-netlify-recaptcha="true"
+            netlify
+            onSubmit={handleSubmit}
+            className="space-y-6"
           >
             <input type="hidden" name="form-name" value="contact" />
             
@@ -83,8 +83,6 @@ export const Contact = () => {
                 required
               />
             </div>
-
-            <div data-netlify-recaptcha="true"></div>
 
             <button
               type="submit"
