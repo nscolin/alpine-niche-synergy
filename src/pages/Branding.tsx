@@ -15,11 +15,11 @@ const Branding = () => {
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="aspect-[4/3] relative overflow-hidden rounded-lg shadow-lg">
               <img
                 src="https://images.unsplash.com/photo-1657543348027-f304c0dae648?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Branding Services"
-                className="rounded-lg shadow-lg w-full"
+                className="absolute inset-0 w-full h-full object-cover object-center"
               />
             </div>
             <div className="space-y-6">
