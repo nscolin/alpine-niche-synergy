@@ -2,20 +2,17 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Sarah Thompson",
-    role: "Marketing Director at Alpine Elite",
+    name: "Sarah T",
     content: "Their strategic approach transformed our digital presence. Our online sales increased by 150% within six months.",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
   },
   {
-    name: "Michael Chen",
-    role: "CEO of PowderPro Skis",
+    name: "Michael C",
     content: "The best investment we've made for our brand. Their e-commerce expertise helped us reach a global market.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
   },
   {
-    name: "David Miller",
-    role: "Founder of Peak Performance Gear",
+    name: "David M",
     content: "Outstanding results! Their branding strategy helped us stand out in a competitive market.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
   },
