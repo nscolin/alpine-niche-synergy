@@ -2,14 +2,14 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Sarah T",
+    name: "Nora H",
     content: "Their strategic approach transformed our digital presence. Our online sales increased by 150% within six months.",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
   },
   {
-    name: "Michael C",
+    name: "Kaylee L",
     content: "The best investment we've made for our brand. Their e-commerce expertise helped us reach a global market.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1533618561606-3b2a0766d159?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "David M",
