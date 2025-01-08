@@ -17,7 +17,7 @@ const DigitalMarketing = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                src="https://images.unsplash.com/photo-1543269664-76bc3997d9ea?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Digital Marketing Strategy"
                 className="rounded-lg shadow-lg w-full aspect-[4/3] object-cover object-center"
               />
