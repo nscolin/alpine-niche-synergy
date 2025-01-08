@@ -3,19 +3,19 @@ import { Laptop, ShoppingCart, Palette, ArrowRight } from "lucide-react";
 const services = [
   {
     title: "Digital Marketing",
-    description: "Strategic social media management, content creation, and targeted advertising campaigns.",
+    description: "Strategic social media campaigns and content tailored for ski accessories brands. We help you reach enthusiasts and pro athletes looking for premium gear.",
     icon: Laptop,
     href: "#digital-marketing",
   },
   {
     title: "E-commerce",
-    description: "Custom online store development, optimization, and conversion rate enhancement.",
+    description: "Specialized online stores for ski accessories with features like size guides, product comparisons, and seasonal collections management.",
     icon: ShoppingCart,
     href: "#ecommerce",
   },
   {
     title: "Branding",
-    description: "Brand identity development, visual design, and positioning strategy.",
+    description: "Create a distinctive identity that resonates with ski enthusiasts. From logo design to packaging for ski accessories.",
     icon: Palette,
     href: "#branding",
   },
@@ -26,9 +26,9 @@ export const Services = () => {
     <section id="services" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">Services for Ski Accessories Brands</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive solutions tailored for boutique ski brands
+            Specialized marketing and e-commerce solutions for companies selling ski goggles, poles, gloves, and other essential gear
           </p>
         </div>
         
