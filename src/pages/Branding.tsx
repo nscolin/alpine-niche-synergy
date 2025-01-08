@@ -8,9 +8,9 @@ const Branding = () => {
       <main className="pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-secondary mb-4">Brand Development</h1>
+            <h1 className="text-4xl font-bold text-secondary mb-4">Ski Accessories Brand Development</h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Brand identity development, visual design, and positioning strategy for ski brands.
+              Creating distinctive brand identities for ski accessories that resonate with winter sports enthusiasts.
             </p>
           </div>
           
@@ -24,16 +24,16 @@ const Branding = () => {
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Brand Strategy</h3>
-                <p className="text-gray-600">Develop a unique brand voice and positioning in the ski industry.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Visual Identity Design</h3>
+                <p className="text-gray-600">Creating distinctive logos and visual elements that capture the spirit of winter sports.</p>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Visual Identity</h3>
-                <p className="text-gray-600">Create compelling visual elements that resonate with your target audience.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Brand Story Development</h3>
+                <p className="text-gray-600">Crafting compelling narratives that connect with ski and snowboard enthusiasts.</p>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Brand Guidelines</h3>
-                <p className="text-gray-600">Comprehensive guidelines to ensure consistent brand presentation.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Packaging Design</h3>
+                <p className="text-gray-600">Eye-catching, functional packaging designed for ski accessories and equipment.</p>
               </div>
             </div>
           </div>

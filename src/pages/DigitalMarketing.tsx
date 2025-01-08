@@ -8,9 +8,9 @@ const DigitalMarketing = () => {
       <main className="pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-secondary mb-4">Digital Marketing Solutions</h1>
+            <h1 className="text-4xl font-bold text-secondary mb-4">Digital Marketing for Ski Accessories</h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Strategic social media management, content creation, and targeted advertising campaigns for boutique ski brands.
+              Specialized digital marketing strategies to reach skiing enthusiasts and grow your accessories brand.
             </p>
           </div>
           
@@ -19,21 +19,21 @@ const DigitalMarketing = () => {
               <img
                 src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
                 alt="Digital Marketing Strategy"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full aspect-[4/3] object-cover object-center"
               />
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">AI Automation</h3>
-                <p className="text-gray-600">Close leads with AI Workflows.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Seasonal Campaign Management</h3>
+                <p className="text-gray-600">Strategic marketing campaigns aligned with ski seasons and industry events.</p>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Content Creation</h3>
-                <p className="text-gray-600">High SEO blog and copywriting services tailored for ski brands.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Social Media Excellence</h3>
+                <p className="text-gray-600">Engaging content creation for ski enthusiasts across Instagram, Facebook, and TikTok.</p>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold text-secondary mb-3">Returning Customers</h3>
-                <p className="text-gray-600">Effective Email Marketing Strategy.</p>
+                <h3 className="text-2xl font-semibold text-secondary mb-3">Performance Marketing</h3>
+                <p className="text-gray-600">Targeted advertising to reach ski enthusiasts and resort visitors.</p>
               </div>
             </div>
           </div>
