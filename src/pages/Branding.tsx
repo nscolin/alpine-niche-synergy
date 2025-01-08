@@ -17,7 +17,7 @@ const Branding = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="aspect-[4/3] relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1657543348027-f304c0dae648?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1520529986992-d4ce365fcfc9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Branding Services"
                 className="absolute inset-0 w-full h-full object-cover object-center"
               />
