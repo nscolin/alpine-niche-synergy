@@ -1,23 +1,23 @@
-import { Laptop, ShoppingCart, Palette, ArrowRight } from "lucide-react";
+import { Laptop, Mail, Palette, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Digital Marketing",
-    description: "Strategic social media management, content creation, and targeted advertising campaigns.",
-    icon: Laptop,
-    href: "#digital-marketing",
+    title: "Email Marketing",
+    description: "Strategic email campaigns, customer segmentation, and automated workflows to drive recurring sales.",
+    icon: Mail,
+    href: "/email-marketing",
   },
   {
-    title: "E-commerce",
-    description: "Custom online store development, optimization, and conversion rate enhancement.",
-    icon: ShoppingCart,
-    href: "#ecommerce",
+    title: "Digital Marketing",
+    description: "Strategic social media management and targeted advertising campaigns for ski accessories brands.",
+    icon: Laptop,
+    href: "/digital-marketing",
   },
   {
     title: "Branding",
-    description: "Brand identity development, visual design, and positioning strategy.",
+    description: "Brand identity development and visual design strategy for ski and winter sports accessories.",
     icon: Palette,
-    href: "#branding",
+    href: "/branding",
   },
 ];
 
@@ -28,7 +28,7 @@ export const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">Our Services</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive solutions tailored for boutique ski brands
+            Comprehensive digital solutions tailored for boutique ski accessories brands
           </p>
         </div>
         
@@ -36,16 +36,16 @@ export const Services = () => {
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-1 transition-all duration-200"
+              className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
             >
-              <div className="text-primary mb-4">
-                <service.icon className="h-10 w-10" />
+              <div className="text-blue-500 mb-4">
+                <service.icon className="h-12 w-12" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary">{service.title}</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">{service.title}</h3>
               <p className="text-gray-600 mb-6">{service.description}</p>
               <a
                 href={service.href}
-                className="text-primary hover:text-primary-dark font-medium inline-flex items-center"
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
               >
                 Learn More
                 <ArrowRight className="ml-2 h-4 w-4" />
