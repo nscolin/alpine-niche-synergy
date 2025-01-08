@@ -38,7 +38,7 @@ const EmailMarketing = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1484807352052-23338990c6c6"
+                src="https://images.unsplash.com/photo-1490031781863-29b9bdbea131?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Email Marketing Strategy"
                 className="rounded-lg shadow-lg w-full aspect-[4/3] object-cover object-center"
               />
