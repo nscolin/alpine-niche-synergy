@@ -1,10 +1,21 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (location.pathname === '/') {
+      e.preventDefault();
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
 
   return (
     <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
@@ -30,7 +41,13 @@ export const Navigation = () => {
             </div>
             <Link to="/blog" className="text-secondary hover:text-primary transition-colors">Blog</Link>
             <Link to="/about" className="text-secondary hover:text-primary transition-colors">About</Link>
-            <Link to="/#contact" className="text-secondary hover:text-primary transition-colors">Contact</Link>
+            <Link 
+              to="/#contact" 
+              onClick={handleContactClick}
+              className="text-secondary hover:text-primary transition-colors"
+            >
+              Contact
+            </Link>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -50,7 +67,13 @@ export const Navigation = () => {
           <Link to="/branding" className="block px-3 py-2 text-secondary hover:text-primary">Branding</Link>
           <Link to="/blog" className="block px-3 py-2 text-secondary hover:text-primary">Blog</Link>
           <Link to="/about" className="block px-3 py-2 text-secondary hover:text-primary">About</Link>
-          <Link to="/#contact" className="block px-3 py-2 text-secondary hover:text-primary">Contact</Link>
+          <Link 
+            to="/#contact" 
+            onClick={handleContactClick}
+            className="block px-3 py-2 text-secondary hover:text-primary"
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </nav>
