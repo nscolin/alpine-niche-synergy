@@ -1,13 +1,25 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const blogPosts = [
   {
     title: "The Ultimate Guide to Ski Brand Pricing Strategy",
     description: "Learn how to position your ski brand in the luxury market with effective pricing strategies that reflect quality and exclusivity.",
     date: "March 15, 2024",
-    slug: "ski-brand-pricing-guide"
+    slug: "ski-brand-pricing-guide",
+    content: `Pricing strategy is crucial for luxury ski brands. This comprehensive guide explores how to position your products effectively in the high-end market.
+
+    Key aspects we'll cover:
+    - Understanding your target market's price sensitivity
+    - Analyzing competitor pricing
+    - Setting premium price points that reflect quality
+    - Implementing dynamic pricing strategies
+    - Creating value-based pricing models
+    
+    The luxury ski market demands a sophisticated approach to pricing that balances exclusivity with accessibility...`
   },
   {
     title: "5 Ways to Improve Your Ski Brand's Social Media Engagement",
@@ -113,9 +125,11 @@ const Blog = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">{post.description}</p>
-                <span className="text-blue-600 hover:text-blue-800 font-medium cursor-pointer">
-                  Read more →
-                </span>
+                <Link to={`/blog/${post.slug}`}>
+                  <Button variant="link" className="p-0">
+                    Read more →
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}

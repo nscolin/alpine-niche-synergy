@@ -1,34 +1,26 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import DigitalMarketing from "./pages/DigitalMarketing";
 import EmailMarketing from "./pages/EmailMarketing";
 import Branding from "./pages/Branding";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
 
-const queryClient = new QueryClient();
-
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/digital-marketing" element={<DigitalMarketing />} />
-          <Route path="/email-marketing" element={<EmailMarketing />} />
-          <Route path="/branding" element={<Branding />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/digital-marketing" element={<DigitalMarketing />} />
+        <Route path="/email-marketing" element={<EmailMarketing />} />
+        <Route path="/branding" element={<Branding />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
